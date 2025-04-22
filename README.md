@@ -3,11 +3,11 @@
 <div align="center">
   <h3>SoundSculpt</h3>
   <div>
-    <a href="https://thenewc0der-24.github.io/SoundSculpt/">View Demo</a>
+    <a href="sandilegontsana.github.io/music_xpress">View Demo</a>
     ·
-    <a href="https://github.com/TheNewC0der-24/SoundSculpt/issues">Report Bug</a>
+    <a href="sandilegontsana.github.io/music_xpress/issues">Report Bug</a>
     ·
-    <a href="https://github.com/TheNewC0der-24/SoundSculpt/issues/new">Request Feature</a>
+    <a href="sandilegontsana.github.io/music_xpress/issues/new">Request Feature</a>
   </div>
 </div>
 
@@ -46,17 +46,18 @@ An awesome website to play songs.
 | --- | --- | --- |
 
 ## Features
-1. You can play a song.
-2. Can able to choose a song.
-3. You can download the selected song from about section.
-4. PWA(Progressive web app).
+1. You can play a Youtube mix.
+2. You can play a song.
+3. Can able to choose a song.
+4. You can download the selected song from about section.
 5. Responsive Website.
 
-## Preview
-![image](https://github.com/TheNewC0der-24/SoundSculpt/blob/master/Preview/Preview.png)
 
-### PWA
-![image](https://github.com/TheNewC0der-24/SoundSculpt/blob/master/PWA/Lighthouse%20Report.png)
+
+## Preview
+![image](https://github.com/SandileGontsana/music_xpress/blob/main/assets/Image/Web_Photo_Editor.jpg)
+
+
 
 ## Contributing
 Contributions are what makes GitHub such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -73,16 +74,15 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 ## Link
 ```
-https://thenewc0der-24.github.io/SoundSculpt/
+https://sandilegontsana.github.io/portfolio/
 ```
 
 ## Contact
 
-Twitter - [@Bhavya06001699](https://twitter.com/Bhavya06001699)
 
-Portfolio Link: [Bhavya Khurana](https://bhavya-khurana.vercel.app/)
 
-Blogs: [Hashnode](https://hashnode.com/@BhavyaKhurana)
+Portfolio Link: [sandile gontsana](https://sandilegontsana.github.io/portfolio/)
+
 
 <p align="right">(<a href="#readme-top">Back to top ⬆️</a>)</p>
 
