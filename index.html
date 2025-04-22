@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0e1313" />
+  <link rel="manifest" href="./manifest.json">
+  <link rel="shortcut icon" href="./assets/Image/ChatGPT Image Apr 22, 2025, 01_42_29 PM.png" type="image/x-icon">
+  <link rel="apple-touch-icon" href="./assets/Image/play.png">
+
+  <title id="title">Music Xpress</title>
+
+  <!-- Import CSS File -->
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./CSS/responsive.css">
+
+  <!-- Import Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body onload="preLoader()">
+
+  <div id="loading"></div>
+
+  <!-- Go to Up button -->
+  <button onclick="topFunction()" id="moveTopBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
+
+  <!-- Navbar  -->
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo"><a href="#">Music Xpress</a></div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <li><a href="#youtube_mix">youtube mixes</a></li>
+        <li><a href="#play">Play Song</a></li>
+
+        <li><a href="#songs">Choose Song</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+        
+        <button id="theme-toggle" class="theme-toggle">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+      </button>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <section class="banner">
+    <video id="bgVideo" autoplay muted loop playsinline>
+      <source id="videoSource" src="assets/video/music_anim.mp4" type="video/mp4">
+      <img src="assets/Image/dark_mode.jpg" alt="Banner fallback">
+    </video>
+    
+    
+    <!-- Your banner content goes here -->
+</section>
+<div class="shape-divider">
+  <section class="about-me" id="about-me">
+    <div class="about-container">
+        <div class="about-row">
+            <div class="col-left">
+              <div class="profile-img">
+                <img src="assets/Image/koki/koki_FV-rbg.png" 
+                     alt="Sandile Gontsana" 
+                     class="default-img">
+                <img src="assets/Image/koki/koki_BV-rbg.png" 
+                     alt="Sandile Gontsana Hover" 
+                     class="hover-img">
+              </div>
+              
+            </div>
+            <div class="col-right">
+                <div class="about-content">
+                    <ul>
+                      <h2>About me</h2>
+                        <li><strong>Hi, I'm koki</strong> and I'm an aspiring DJ, trying to share vibes and joy </li>
+                        
+                        <li><strong>NB!!!:</strong> 
+                          This website is dedicated to celebrating and promoting great music. All content is shared with the intention of supporting artists and introducing listeners to new sounds❤️.</li>
+                          <li>
+                            If you are an artist, label, or copyright holder and believe that any content on this site infringes upon your rights, please contact me immediately at skokimaskwa@gmail.com🎵🎶. I will promptly address your concerns and remove any unauthorized material upon verification🎹🎧.</li>
+                            <li>I respect intellectual property rights and strive to ensure all shared content is either properly credited, used with permission, or falls under fair use🎚️🎛️. Your music deserves recognition and protection—let me know if there’s an issue, and I’ll take swift action🥁🎼.</li>
+                            <li>Thank you for your understanding and support in fostering a fair and vibrant music community🎙️.</li>
+                        
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Details Section -->
+        <div class="contact-details">
+            <div class="contact-card">
+                <h3>📲 Phone</h3>
+                <p>+27 79 566 9289</p>
+            </div>
+            <div class="contact-card">
+                <h3>📧 Email</h3>
+                <p>skokimaskwa@gmail.com</p>
+            </div>
+            <div class="contact-card">
+                <h3>📍 Location</h3>
+                <p>North West, South Africa</p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section class="youtube_mix" id="youtube_mix">
+  <div class="songs-header">
+    <h2 class="title">My Youtube mixes</h2>
+    
+  </div>
+  <div class="video-grid">
+    <a class="video-thumb" href="https://www.youtube.com/watch?v=3t7NKMQkgiw" target="_blank">
+      <img src="https://img.youtube.com/vi/3t7NKMQkgiw/hqdefault.jpg" alt="soulful">
+      <div class="play-btn"></div>
+    </a>
+  
+    <a class="video-thumb" href="https://www.youtube.com/watch?v=KO-gsqCckNw" target="_blank">
+      <img src="https://img.youtube.com/vi/KO-gsqCckNw/hqdefault.jpg" alt="therapeutic">
+      <div class="play-btn"></div>
+    </a>
+
+    <a class="video-thumb" href="https://www.youtube.com/watch?v=Q1n6DZRwaNY" target="_blank">
+      <img src="https://img.youtube.com/vi/Q1n6DZRwaNY/hqdefault.jpg" alt="Imagine Dragons">
+      <div class="play-btn"></div>
+    </a>
+    <a class="video-thumb" href="https://www.youtube.com/watch?v=QAhCnipWt5c" target="_blank">
+      <img src="https://img.youtube.com/vi/QAhCnipWt5c/hqdefault.jpg" alt="Rick Astley">
+      <div class="play-btn"></div>
+    </a>
+    
+  </div>
+  <div class="video-grid">
+    <a class="video-thumb" href="https://www.youtube.com/watch?v=GMV9wabJuaw" target="_blank">
+      <img src="https://img.youtube.com/vi/GMV9wabJuaw/hqdefault.jpg" alt="Smash Mouth - All Star">
+      <div class="play-btn"></div>
+    </a>
+  
+    <a class="video-thumb" href="https://www.youtube.com/watch?v=maqCBun2zeM" target="_blank">
+      <img src="https://img.youtube.com/vi/maqCBun2zeM/hqdefault.jpg" alt="Radioactive">
+      <div class="play-btn"></div>
+    </a>
+
+    <a class="video-thumb" href="https://www.youtube.com/watch?v=8Vplu0AcbHA" target="_blank">
+      <img src="https://img.youtube.com/vi/8Vplu0AcbHA/hqdefault.jpg" alt="Radioactive">
+      <div class="play-btn"></div>
+    </a>
+
+    <a class="video-thumb" href="https://www.youtube.com/watch?v=AFiWIn7SuGc" target="_blank">
+      <img src="https://img.youtube.com/vi/AFiWIn7SuGc/hqdefault.jpg" alt="Smash Mouth - All Star">
+      <div class="play-btn"></div>
+    </a>
+  </div>
+</section>
+
+  <!-- PLAY PAGE -->
+  <section class="play" id="play">
+    <div class="container">
+      <div class="about-content">
+      <ul> <h2><strong>recommendated sample</strong></h2> </ul>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="left-col">
+              <h1 id="songName"> I Never thought </h1>
+              <h5>~<em id="songBy"> cocosa ft chini</em></h5>
+            </div>
+            <div class="right-col">
+              <img src="./assets/Image/play.png" alt="play-button" id="icon">
+              <p>Click Here To Listen</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <audio id="song">
+        <source src="./assets/Songs/cocosa_ft_chini_i_never_thought_cocosa_soulful_touch_aac_53464.m4a" type="audio/mp4">
+      </audio>
+    </div>
+  </section>
+
+
+
+  <!-- SELECT SONGS -->
+  <section class="songs" id="songs">
+    <div class="container">
+      <div class="songs-header">
+        <h2 class="title">Choose a song !!</h2>
+        <a class="play-song-btn" href="#play">Play Song</a>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn"> Vula Vala</button>
+        <button type="button" class="btn">I Never thought</button>
+        <button type="button" class="btn">Korobela</button>
+        <button type="button" class="btn">abuyile amakhosi</button>
+        <button type="button" class="btn">Ngisahuthanda</button>
+        <button type="button" class="btn">Ntandane</button>
+        <button type="button" class="btn">IEmlanjeni</button>
+        <button type="button" class="btn">Ithuba</button>
+        <button type="button" class="btn">Umona</button>
+        <button type="button" class="btn">Ndawana</button>
+        <button type="button" class="btn">Koko</button>
+        <button type="button" class="btn">Nana thula</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-header">
+        <h2 class="title">About Song !!</h2>
+      </div>
+      <div class="about-content">
+        <div>
+          <p id="aboutSong">
+            "I Like Me Better" is a song recorded by American singer-songwriter Lauv. It was released on
+            May 19, 2017, and is included on Lauv's compilation album I Met You When I Was 18, which was
+            released on May 31, 2018. It has also been used in an Android Auto app commercial, in the
+            trailer of Netflix's romantic comedy To All the Boys I've Loved Before, and in the fall ball
+            episode of Netflix's comedy series The Expanding Universe of Ashley Garcia.
+          </p>
+          <!--<a class="download-song" href="./assets/Songs/I Like Me Better - Lauv.mp3" id="download" download="Song.mp3">
+            Download Song
+          </a>-->
+        </div>
+        <div class="image-container">
+          <img src="./assets/Image/ilikemebetter.png" alt="song-banner" id="banner">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="title">Connect with Us on Social media</h2>
+    <div class="social-media">
+      <a href="https://www.instagram.com/27skoki/" target="_blank"><i class="fab fa-instagram"></i></a>
+
+      <a href="https://www.facebook.com/#" target="_blank"><i class="fab fa-facebook"></i></a>
+
+      <a href="https://www.instagram.com/27skoki/" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+      <a href="https://twitter.com/#" target="_blank"><i class="fab fa-twitter"></i></a>
+
+      <a href="https://github.com/SandileGontsana" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+
+    <footer class="footer">
+      <p>© Design by <a href="https://sandilegontsana.github.io/portfolio/" target="_blank">Sandile Gontsana</a></p>
+      <p>Design for  <a href="skokimaskwa@gmail.com" target="_blank">Koketso</a></p>
+    </footer>
+  </section>
+</div>
+  <!-- Import JS File -->
+  <script src="./JS/script.js"></script>
+  <script src="./RegisterServiceWorker.js"></script>
+
+</body>
+
+</html>

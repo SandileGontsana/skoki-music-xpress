@@ -1,0 +1,115 @@
+@media (max-width: 815px) {
+    body.disabledScroll {
+        overflow: hidden;
+    }
+
+    .icon {
+        display: block;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        line-height: 52.5px;
+        border-radius: 50%;
+        z-index: 999;
+    }
+
+    .icon.cancel-btn {
+        display: none;
+    }
+
+    .icon.cancel-btn.show {
+        display: block;
+    }
+
+    .icon.hide {
+        display: none;
+    }
+
+    .navbar .menu-list {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(90deg, #bde1df 30%, #eca7a6 70%);
+        display: block;
+        padding: 40px 0;
+        text-align: center;
+        clip-path: circle(25px at calc(100% - 55px) calc(0% + 50px));
+        transition: all 0.3s ease;
+    }
+
+    .navbar.sticky .menu-list {
+        clip-path: circle(25px at calc(100% - 55px) calc(0% + 35px));
+    }
+
+    .navbar .menu-list.active {
+        clip-path: circle(75%);
+    }
+
+    .navbar .menu-list li {
+        margin-top: 45px;
+    }
+
+    .navbar .menu-list li a {
+        font-size: 23px;
+    }
+
+}
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .youtube-videos {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .youtube-videos {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .youtube-videos {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+    }
+}
+/*Responsive */
+@media (max-width: 768px) {
+  .about-row {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .profile-img img {
+      width: 180px;
+      height: 180px;
+  }
+
+  .contact-details {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .contact-card {
+      width: 100%;
+      max-width: 300px;
+  }
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-details {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .contact-card {
+      width: 100%;
+      max-width: 300px;
+  }
+}
