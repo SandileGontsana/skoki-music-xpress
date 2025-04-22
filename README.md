@@ -55,7 +55,7 @@ An awesome website to play songs.
 
 
 ## Preview
-![image](https://github.com/SandileGontsana/music_xpress/blob/main/assets/Image/Web_Photo_Editor.jpg)
+![image](https://github.com/SandileGontsana/skoki-music-xpress/blob/main/assets/Image/Web_Photo_Editor.jpg)
 
 
 
